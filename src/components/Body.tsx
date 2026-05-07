@@ -1,6 +1,10 @@
+import SideBar from "./SideBar";
+
 const Body = () => {
   return(
-    <div>Body</div>
+    <div>
+      <SideBar/>
+    </div>
   )
 }
 
