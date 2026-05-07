@@ -1,9 +1,11 @@
 import Head from "./components/Head";
+import Body from "./components/Body";
+
 function App() {
   return (
     <div>
-      <h1 className='text-red-700 font-bold'>hello</h1>
       <Head/>
+      <Body/>
     </div>
   )
 }
