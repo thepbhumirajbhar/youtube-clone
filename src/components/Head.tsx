@@ -1,12 +1,12 @@
 const Head = () => {
   return (
-    <div className="p-1">
-      <div className="flex gap-5">
+    <div className="flex items-center justify-between">
+      <div className="flex gap-5 items-center">
         {/* left section */}
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1280px-Hamburger_icon.svg.png"
           alt="sidebar menu"
-          className="w-7 ml-2"/>
+          className= "w-7 ml-2"/>
 
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/2/20/YouTube_2024.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
@@ -14,8 +14,16 @@ const Head = () => {
             className="w-24"/>
       </div>
 
-      <div>
+      <div className="justify-center">
         {/* middle section */}
+        <input 
+          type="text" 
+          placeholder="Search"
+          className="m-4 px-20 border-2 border-black"/> 
+
+        <button>
+          Search
+        </button>
       </div>
 
       <div>
