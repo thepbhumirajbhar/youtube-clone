@@ -1,6 +1,18 @@
 const Head = () => {
   return (
-    <div>head</div>
+    <div>
+      <div>
+        left section
+      </div>
+
+      <div>
+        middle section
+      </div>
+
+      <div>
+        right section
+      </div>
+    </div>
   )
 }
 
