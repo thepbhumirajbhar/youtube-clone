@@ -1,6 +1,6 @@
 const Head = () => {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between shadow-lg">
       <div className="flex gap-5 items-center">
         {/* left section */}
         <img
@@ -14,7 +14,7 @@ const Head = () => {
             className="w-24"/>
       </div>
 
-      <div className="justify-center">
+      <div className="justify-center items-center flex">
         {/* middle section */}
         <input 
           type="text" 
@@ -26,8 +26,17 @@ const Head = () => {
         </button>
       </div>
 
-      <div>
+      <div className="flex gap-3">
         {/* right section */}
+        <img
+          src="https://static.thenounproject.com/png/notification-bell-icon-3680442-512.png"
+          alt="notification-bell"
+          className="w-8"/>
+
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/019/879/186/non_2x/user-icon-on-transparent-background-free-png.png"
+          alt="user-icon"
+          className="w-14"/>
       </div>
     </div>
   )
