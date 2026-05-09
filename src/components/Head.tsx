@@ -1,6 +1,6 @@
 const Head = () => {
   return (
-    <div className="flex items-center justify-between shadow-lg">
+    <div className="flex items-center justify-between shadow-lg p-2">
       <div className="flex gap-5 items-center">
         {/* left section */}
         <img
@@ -14,14 +14,15 @@ const Head = () => {
             className="w-24"/>
       </div>
 
-      <div className="justify-center items-center flex">
+      <div className="">
         {/* middle section */}
         <input 
           type="text" 
           placeholder="Search"
-          className="m-4 px-20 border-2 border-black"/> 
+          className="w-98 border-2 border-gray-500 rounded-l-full p-0.5 text-sm border-r-0"/> 
 
-        <button>
+        <button
+          className="border-gray-500 border-2 rounded-r-full p-0.5 text-sm">
           Search
         </button>
       </div>
