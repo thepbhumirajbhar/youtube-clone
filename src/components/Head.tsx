@@ -1,7 +1,7 @@
 const Head = () => {
   return (
     <div className="flex items-center justify-between shadow-lg p-2">
-      <div className="flex gap-5 items-center">
+      <div className="flex gap-5 items-center my-2">
         {/* left section */}
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1280px-Hamburger_icon.svg.png"
@@ -14,15 +14,15 @@ const Head = () => {
             className="w-24"/>
       </div>
 
-      <div className="">
+      <div className="my-0.5">
         {/* middle section */}
         <input 
           type="text" 
           placeholder="Search"
-          className="w-98 border-2 border-gray-500 rounded-l-full p-0.5 text-sm border-r-0"/> 
+          className="w-98 border-2 border-gray-500 rounded-l-full p-0.5 border-r-0"/> 
 
         <button
-          className="border-gray-500 border-2 rounded-r-full p-0.5 text-sm">
+          className="border-gray-500 border-2 rounded-r-full p-0.5">
           Search
         </button>
       </div>
