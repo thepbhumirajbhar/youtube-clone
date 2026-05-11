@@ -19,11 +19,11 @@ const Head = () => {
         <input 
           type="text" 
           placeholder="Search"
-          className="w-98 border-2 border-gray-500 rounded-l-full p-0.5 border-r-0"/> 
+          className="w-98 border-2 border-gray-500 rounded-l-full p-2 border-r-0"/> 
 
         <button
-          className="border-gray-500 border-2 rounded-r-full p-0.5">
-          Search
+          className="border-gray-500 border-2 rounded-r-full p-2 px-4 bg-gray-200">
+          🔍
         </button>
       </div>
 
