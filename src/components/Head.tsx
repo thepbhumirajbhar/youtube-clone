@@ -1,12 +1,23 @@
 const Head = () => {
+
+
+  const toggleMenuHandler = () => {
+    // it will dispatch an action to change the state of the toggleMenu 
+  }
+
+
+
+
+
   return (
     <div className="flex items-center justify-between shadow-lg p-1.5">
       <div className="flex gap-5 items-center my-1">
         {/* left section */}
         <img
+          onClick={() => toggleMenuHandler()}
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1280px-Hamburger_icon.svg.png"
           alt="sidebar menu"
-          className= "w-7 ml-2"/>
+          className= "w-7 ml-2 cursor-pointer"/>
 
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/2/20/YouTube_2024.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
