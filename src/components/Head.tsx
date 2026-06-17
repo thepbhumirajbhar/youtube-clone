@@ -1,8 +1,14 @@
+import { useDispatch } from "react-redux";
+import { toggleMenu } from "../../utils/appSlice";
+
 const Head = () => {
+
+  const dispatch = useDispatch();
 
 
   const toggleMenuHandler = () => {
     // it will dispatch an action to change the state of the toggleMenu 
+    dispatch(toggleMenu())
   }
 
 
