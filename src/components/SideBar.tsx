@@ -1,4 +1,14 @@
+import { useSelector } from "react-redux";
+
 const SideBar = () => {
+
+  //subscribe to the store to toggle SideBar Menu 
+  const isMenuOpen = useSelector((store)=> store.app.isMenuOpen);
+
+  //early return
+  if(!isMenuOpen) return null;
+
+
   return(
     <div className="shadow-2xl p-5 w-48 font-serif">
         <ul>
