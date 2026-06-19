@@ -1,14 +1,15 @@
 import Button from "./Button";
 
+const categories = ["All", "Cricket","Movies","News", "Podcasts"]
+
 const ButtonList = () => {
   return (
     <div className="flex">
-      <Button name='All' />
-      <Button name='Cricket'/>
-      <Button name='Movies' />
-      <Button name='Kapil Sharma'/>
-      <Button name='Diljit' />
-      <Button name='Zakir'/>
+      {
+        categories.map((category , index) => (
+          <Button key={index} name={category}/>
+        ))
+      }
     </div>
   )
 }
