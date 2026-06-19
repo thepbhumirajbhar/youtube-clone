@@ -1,7 +1,14 @@
+import Button from "./Button";
+
 const ButtonList = () => {
   return (
-    <div>
-      ButtonList
+    <div className="flex">
+      <Button />
+      <Button />
+      <Button />
+      <Button />
+      <Button />
+      <Button />
     </div>
   )
 }
