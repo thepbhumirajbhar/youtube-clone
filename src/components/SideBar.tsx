@@ -1,9 +1,11 @@
 import { useSelector } from "react-redux";
+import type { RootState } from "../../utils/store";
+
 
 const SideBar = () => {
 
   //subscribe to the store to toggle SideBar Menu 
-  const isMenuOpen = useSelector((store)=> store.app.isMenuOpen);
+  const isMenuOpen = useSelector((store: RootState)=> store.app.isMenuOpen);
 
   //early return
   if(!isMenuOpen) return null;

@@ -7,5 +7,7 @@ const store = configureStore({
   }
 });
 
+//bridges th egap between redux and TS
+export type RootState = ReturnType<typeof store.getState>
 
 export default store;
